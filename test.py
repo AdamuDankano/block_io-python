@@ -15,7 +15,7 @@ from decimal import Decimal, getcontext
 
 getcontext().prec = 8
 
-API_KEY = os.environ.get("BLOCK_IO_API_KEY")
+API_KEY = os.environ.get("aa11-379f-4fe2-4b6b")
 PIN = os.environ.get("BLOCK_IO_PIN")
 API_VERSION = os.getenv("BLOCK_IO_VERSION", 2)
 
